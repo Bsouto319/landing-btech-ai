@@ -19,11 +19,11 @@ export default function CTA() {
     try {
       await subscribeNewsletter(email);
       trackFormSubmission('newsletter_cta');
-      setMessage('Thank you for subscribing!');
+      setMessage('Obrigado por se inscrever!');
       setEmail('');
       setTimeout(() => setMessage(''), 3000);
     } catch (error) {
-      setMessage('Failed to subscribe. Please try again.');
+      setMessage('Erro ao se inscrever. Por favor, tente novamente.');
     } finally {
       setLoading(false);
     }
@@ -33,16 +33,16 @@ export default function CTA() {
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-primary to-secondary">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
-          Ready to Get Started?
+          Pronto para Começar?
         </h2>
         <p className="text-lg text-white/90 mb-10 max-w-2xl mx-auto">
-          Join thousands of users who are already building amazing landing pages. Start your free trial today.
+          Junte-se a milhares de usuários que já estão criando landing pages incríveis. Comece seu teste grátis hoje.
         </p>
 
         <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
           <input
             type="email"
-            placeholder="Enter your email"
+            placeholder="Digite seu email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
@@ -54,18 +54,18 @@ export default function CTA() {
             disabled={loading}
             className="px-8 py-3 bg-white text-primary font-semibold rounded-lg hover:shadow-lg transition duration-300 disabled:opacity-50"
           >
-            {loading ? 'Subscribing...' : 'Subscribe'}
+            {loading ? 'Inscrevendo...' : 'Inscrever'}
           </button>
         </form>
 
         {message && (
-          <p className={message.indexOf('Thank') > -1 ? 'mt-4 text-sm text-green-100' : 'mt-4 text-sm text-red-100'}>
+          <p className={message.indexOf('Obrigado') > -1 ? 'mt-4 text-sm text-green-100' : 'mt-4 text-sm text-red-100'}>
             {message}
           </p>
         )}
 
         <p className="text-sm text-white/75 mt-6">
-          No spam, ever. We respect your privacy.
+          Sem spam. Respeitamos sua privacidade.
         </p>
       </div>
     </section>

@@ -6,36 +6,36 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="font-bold text-lg mb-4">LandingPage</h3>
+            <h3 className="font-bold text-lg mb-4">Btech AI Attendant</h3>
             <p className="text-gray-400 text-sm">
-              Build stunning landing pages with ease. Fast, flexible, and powerful.
+              Automatize agendamentos, reduza faltas e aumente sua receita. Simples, rápido e eficaz.
             </p>
           </div>
           <div>
-            <h4 className="font-semibold mb-4">Product</h4>
+            <h4 className="font-semibold mb-4">Produto</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><a href="#" className="hover:text-white transition">Features</a></li>
-              <li><a href="#" className="hover:text-white transition">Pricing</a></li>
-              <li><a href="#" className="hover:text-white transition">Security</a></li>
+              <li><a href="#" className="hover:text-white transition">Funcionalidades</a></li>
+              <li><a href="#" className="hover:text-white transition">Preços</a></li>
+              <li><a href="#" className="hover:text-white transition">Segurança</a></li>
               <li><a href="#" className="hover:text-white transition">Roadmap</a></li>
             </ul>
           </div>
           <div>
-            <h4 className="font-semibold mb-4">Company</h4>
+            <h4 className="font-semibold mb-4">Empresa</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><a href="#" className="hover:text-white transition">About</a></li>
+              <li><a href="#" className="hover:text-white transition">Sobre</a></li>
               <li><a href="#" className="hover:text-white transition">Blog</a></li>
-              <li><a href="#" className="hover:text-white transition">Careers</a></li>
-              <li><a href="#" className="hover:text-white transition">Contact</a></li>
+              <li><a href="#" className="hover:text-white transition">Carreiras</a></li>
+              <li><a href="#" className="hover:text-white transition">Contato</a></li>
             </ul>
           </div>
           <div>
             <h4 className="font-semibold mb-4">Legal</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><a href="#" className="hover:text-white transition">Privacy</a></li>
-              <li><a href="#" className="hover:text-white transition">Terms</a></li>
+              <li><a href="#" className="hover:text-white transition">Privacidade</a></li>
+              <li><a href="#" className="hover:text-white transition">Termos</a></li>
               <li><a href="#" className="hover:text-white transition">Cookies</a></li>
-              <li><a href="#" className="hover:text-white transition">License</a></li>
+              <li><a href="#" className="hover:text-white transition">Licença</a></li>
             </ul>
           </div>
         </div>
@@ -43,12 +43,12 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-gray-400 mb-4 md:mb-0">
-              Copyright (c) {currentYear} LandingPage. All rights reserved.
+              Copyright (c) {currentYear} Btech AI. Todos os direitos reservados.
             </p>
             <div className="flex gap-6">
-              <a href="#" className="text-gray-400 hover:text-white transition">Twitter</a>
-              <a href="#" className="text-gray-400 hover:text-white transition">GitHub</a>
-              <a href="#" className="text-gray-400 hover:text-white transition">LinkedIn</a>
+              <a href="https://twitter.com" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition">Twitter</a>
+              <a href="https://github.com" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition">GitHub</a>
+              <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition">LinkedIn</a>
             </div>
           </div>
         </div>

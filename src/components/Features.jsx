@@ -8,20 +8,20 @@ export default function Features() {
 
   const features = [
     {
-      title: 'Advanced Analytics',
-      items: ['Real-time tracking', 'Conversion funnel analysis', 'Heat mapping'],
+      title: 'Análise Avançada',
+      items: ['Rastreamento em tempo real', 'Análise de funil de conversão', 'Mapa de calor'],
     },
     {
-      title: 'Design Freedom',
-      items: ['Custom CSS', 'Responsive design', 'Mobile-first approach'],
+      title: 'Total Customizável',
+      items: ['CSS customizado', 'Design responsivo', 'Mobile-first'],
     },
     {
-      title: 'Integrations',
-      items: ['Email marketing tools', 'CRM systems', 'Payment processors'],
+      title: 'Integrações',
+      items: ['Email marketing', 'Sistemas CRM', 'Processadores de pagamento'],
     },
     {
-      title: 'Team Collaboration',
-      items: ['Real-time editing', 'Version control', 'Permission management'],
+      title: 'Colaboração em Equipe',
+      items: ['Edição em tempo real', 'Controle de versão', 'Gerenciamento de permissões'],
     },
   ];
 
