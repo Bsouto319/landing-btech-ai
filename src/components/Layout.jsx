@@ -1,0 +1,29 @@
+import { useEffect } from 'react';
+import { initializeAnalytics } from '../utils/analytics';
+import Hero from './Hero';
+import Problems from './Problems';
+import Solutions from './Solutions';
+import Features from './Features';
+import Pricing from './Pricing';
+import CTA from './CTA';
+import FAQ from './FAQ';
+import Footer from './Footer';
+
+export default function Layout() {
+  useEffect(() => {
+    initializeAnalytics();
+  }, []);
+
+  return (
+    <div className="min-h-screen bg-slate-900">
+      <Hero />
+      <Problems />
+      <Solutions />
+      <Features />
+      <Pricing />
+      <CTA />
+      <FAQ />
+      <Footer />
+    </div>
+  );
+}
