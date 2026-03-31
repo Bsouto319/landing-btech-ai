@@ -6,6 +6,7 @@ import Solutions from './Solutions';
 import Features from './Features';
 import Pricing from './Pricing';
 import CTA from './CTA';
+import Testimonials from './Testimonials';
 import FAQ from './FAQ';
 import Footer from './Footer';
 
@@ -22,6 +23,7 @@ export default function Layout() {
       <Features />
       <Pricing />
       <CTA />
+      <Testimonials />
       <FAQ />
       <Footer />
     </div>
