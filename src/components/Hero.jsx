@@ -24,26 +24,25 @@ export default function Hero() {
       <div className="absolute bottom-20 left-10 w-72 h-72 bg-green-500/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
 
       <div className="max-w-5xl mx-auto text-center relative z-10">
-        {/* Avatar Animation */}
+        {/* AI Secretary Avatar Image */}
         <div className="mb-8 flex justify-center">
-          <div className="relative w-32 h-32">
-            {/* Outer rotating ring */}
-            <div className="absolute inset-0 bg-gradient-to-r from-green-500 via-blue-500 to-cyan-500 rounded-full animate-spin" style={{ animationDuration: '3s' }}></div>
+          <div className="relative w-80 h-80 rounded-2xl overflow-hidden shadow-2xl shadow-green-500/30 border-2 border-green-500/50">
+            <img
+              src="/images/hero/ai-secretary.png"
+              alt="Assistente IA Btech"
+              className="w-full h-full object-cover"
+            />
+            {/* Overlay gradient */}
+            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-20"></div>
 
-            {/* Inner white circle */}
-            <div className="absolute inset-1 bg-slate-900 rounded-full"></div>
-
-            {/* Avatar content */}
-            <div className="absolute inset-2 bg-gradient-to-br from-green-500 to-emerald-500 rounded-full flex items-center justify-center">
-              <span className="text-5xl">🤖</span>
+            {/* Floating badges */}
+            <div className="absolute top-4 right-4 bg-green-500 rounded-full px-4 py-2 flex items-center gap-2 shadow-lg">
+              <span className="text-2xl">💬</span>
+              <span className="text-white font-semibold text-sm">24/7 Online</span>
             </div>
-
-            {/* Floating chat bubbles */}
-            <div className="absolute -top-2 -right-2 w-10 h-10 bg-green-500 rounded-full flex items-center justify-center text-lg animate-bounce" style={{ animationDelay: '0s' }}>
-              💬
-            </div>
-            <div className="absolute -bottom-2 -left-2 w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center text-lg animate-bounce" style={{ animationDelay: '0.3s' }}>
-              ✓
+            <div className="absolute bottom-4 left-4 bg-blue-500 rounded-full px-4 py-2 flex items-center gap-2 shadow-lg">
+              <span className="text-2xl">✓</span>
+              <span className="text-white font-semibold text-sm">IA Ativa</span>
             </div>
           </div>
         </div>
