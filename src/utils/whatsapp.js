@@ -1,5 +1,5 @@
 // WhatsApp integration utility
-const WHATSAPP_NUMBER = import.meta.env.VITE_WHATSAPP_NUMBER || '5511987654321'; // Replace with actual number
+const WHATSAPP_NUMBER = import.meta.env.VITE_WHATSAPP_NUMBER || '5561982025951';
 
 /**
  * Generate WhatsApp Web URL with pre-filled message
