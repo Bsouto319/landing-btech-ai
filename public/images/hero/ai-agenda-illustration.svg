@@ -1,0 +1,107 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="760" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="180" y1="160" x2="650" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E293B"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="250" y1="120" x2="720" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <filter id="blurGlow" x="0" y="0" width="900" height="900" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="900" rx="48" fill="url(#bg)"/>
+
+  <circle cx="210" cy="180" r="120" fill="#22D3EE" fill-opacity="0.12" filter="url(#blurGlow)"/>
+  <circle cx="710" cy="720" r="150" fill="#22C55E" fill-opacity="0.12" filter="url(#blurGlow)"/>
+
+  <path d="M162 254C239 166 359 126 483 139C608 153 705 216 761 316" stroke="#22D3EE" stroke-opacity="0.18" stroke-width="2"/>
+  <path d="M135 513C224 411 349 353 490 360C628 366 717 427 774 522" stroke="#22C55E" stroke-opacity="0.18" stroke-width="2"/>
+  <path d="M177 678C258 598 369 557 492 569C603 580 685 629 742 701" stroke="#38BDF8" stroke-opacity="0.18" stroke-width="2"/>
+
+  <g opacity="0.7">
+    <circle cx="200" cy="250" r="6" fill="#22D3EE"/>
+    <circle cx="324" cy="181" r="6" fill="#34D399"/>
+    <circle cx="478" cy="160" r="6" fill="#22D3EE"/>
+    <circle cx="652" cy="212" r="6" fill="#34D399"/>
+    <circle cx="174" cy="520" r="6" fill="#34D399"/>
+    <circle cx="327" cy="398" r="6" fill="#22D3EE"/>
+    <circle cx="493" cy="391" r="6" fill="#34D399"/>
+    <circle cx="696" cy="458" r="6" fill="#22D3EE"/>
+    <circle cx="219" cy="683" r="6" fill="#22D3EE"/>
+    <circle cx="382" cy="604" r="6" fill="#34D399"/>
+    <circle cx="543" cy="614" r="6" fill="#22D3EE"/>
+    <circle cx="706" cy="689" r="6" fill="#34D399"/>
+  </g>
+
+  <g>
+    <rect x="172" y="172" width="380" height="490" rx="32" fill="url(#panel)" stroke="url(#accent)" stroke-opacity="0.45" stroke-width="3"/>
+    <rect x="172" y="172" width="380" height="96" rx="32" fill="#0B1220"/>
+    <rect x="172" y="232" width="380" height="36" fill="#0B1220"/>
+    <rect x="230" y="132" width="22" height="70" rx="11" fill="#38BDF8"/>
+    <rect x="472" y="132" width="22" height="70" rx="11" fill="#22C55E"/>
+    <text x="206" y="225" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="34" font-weight="700">Agenda IA</text>
+    <text x="206" y="308" fill="#94A3B8" font-family="Arial, sans-serif" font-size="20">SEG</text>
+    <text x="264" y="308" fill="#94A3B8" font-family="Arial, sans-serif" font-size="20">TER</text>
+    <text x="322" y="308" fill="#94A3B8" font-family="Arial, sans-serif" font-size="20">QUA</text>
+    <text x="384" y="308" fill="#94A3B8" font-family="Arial, sans-serif" font-size="20">QUI</text>
+    <text x="443" y="308" fill="#94A3B8" font-family="Arial, sans-serif" font-size="20">SEX</text>
+
+    <g fill="#E2E8F0" font-family="Arial, sans-serif" font-size="24" font-weight="700">
+      <text x="214" y="370">12</text>
+      <text x="273" y="370">13</text>
+      <text x="332" y="370">14</text>
+      <text x="391" y="370">15</text>
+      <text x="450" y="370">16</text>
+      <text x="214" y="458">19</text>
+      <text x="273" y="458">20</text>
+      <text x="332" y="458">21</text>
+      <text x="391" y="458">22</text>
+      <text x="450" y="458">23</text>
+      <text x="214" y="546">26</text>
+      <text x="273" y="546">27</text>
+      <text x="332" y="546">28</text>
+      <text x="391" y="546">29</text>
+      <text x="450" y="546">30</text>
+    </g>
+
+    <rect x="315" y="401" width="58" height="58" rx="16" fill="url(#accent)"/>
+    <path d="M332 430L344 442L360 418" stroke="#0F172A" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="205" y="585" width="313" height="44" rx="18" fill="#0B1220" stroke="#1E293B"/>
+    <text x="228" y="613" fill="#22C55E" font-family="Arial, sans-serif" font-size="20" font-weight="700">Consulta confirmada pela IA</text>
+  </g>
+
+  <g>
+    <circle cx="636" cy="370" r="130" fill="#0B1220" stroke="url(#accent)" stroke-width="3"/>
+    <circle cx="636" cy="370" r="88" fill="#131E33" stroke="#1E293B"/>
+    <circle cx="600" cy="346" r="12" fill="#22D3EE"/>
+    <circle cx="672" cy="346" r="12" fill="#22D3EE"/>
+    <path d="M595 405C619 427 654 427 678 405" stroke="#22C55E" stroke-width="10" stroke-linecap="round"/>
+    <rect x="623" y="228" width="26" height="52" rx="13" fill="#22D3EE"/>
+    <rect x="623" y="460" width="26" height="52" rx="13" fill="#22C55E"/>
+    <rect x="495" y="357" width="52" height="26" rx="13" fill="#22D3EE"/>
+    <rect x="725" y="357" width="52" height="26" rx="13" fill="#22C55E"/>
+    <path d="M546 281L571 306" stroke="#38BDF8" stroke-width="10" stroke-linecap="round"/>
+    <path d="M701 306L726 281" stroke="#22C55E" stroke-width="10" stroke-linecap="round"/>
+    <path d="M546 459L571 434" stroke="#22C55E" stroke-width="10" stroke-linecap="round"/>
+    <path d="M701 434L726 459" stroke="#38BDF8" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="636" cy="370" r="16" fill="url(#accent)"/>
+  </g>
+
+  <g>
+    <path d="M515 607C559 585 612 574 661 579C715 585 758 610 792 651" stroke="#22D3EE" stroke-width="4" stroke-dasharray="10 12" opacity="0.8"/>
+    <circle cx="512" cy="607" r="10" fill="#22D3EE"/>
+    <circle cx="792" cy="651" r="10" fill="#22C55E"/>
+    <rect x="594" y="640" width="226" height="92" rx="24" fill="#0B1220" stroke="#1E293B"/>
+    <text x="622" y="678" fill="#94A3B8" font-family="Arial, sans-serif" font-size="18">Assistente neural ativo</text>
+    <text x="622" y="713" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="26" font-weight="700">Horarios sugeridos</text>
+  </g>
+</svg>
