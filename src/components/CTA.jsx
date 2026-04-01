@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
-import { trackSectionView, trackFormSubmission } from '../utils/analytics';
+import { trackSectionView, trackFormSubmission, trackButtonClick } from '../utils/analytics';
 import { subscribeNewsletter } from '../utils/api';
+import { openWhatsApp, WHATSAPP_MESSAGES } from '../utils/whatsapp';
 
 export default function CTA() {
   useEffect(() => {
@@ -29,6 +30,11 @@ export default function CTA() {
     }
   };
 
+  const handleWhatsAppClick = () => {
+    trackButtonClick('cta_whatsapp');
+    openWhatsApp(WHATSAPP_MESSAGES.demo);
+  };
+
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-primary to-secondary">
       <div className="max-w-4xl mx-auto text-center">
@@ -39,7 +45,7 @@ export default function CTA() {
           Junte-se a milhares de usuários que já estão criando landing pages incríveis. Comece seu teste grátis hoje.
         </p>
 
-        <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+        <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto mb-6">
           <input
             type="email"
             placeholder="Digite seu email"
@@ -57,6 +63,15 @@ export default function CTA() {
             {loading ? 'Inscrevendo...' : 'Inscrever'}
           </button>
         </form>
+
+        <div className="flex justify-center">
+          <button
+            onClick={handleWhatsAppClick}
+            className="px-8 py-3 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg transition duration-300 shadow-lg hover:shadow-green-500/50"
+          >
+            💬 Fale Conosco via WhatsApp
+          </button>
+        </div>
 
         {message && (
           <p className={message.indexOf('Obrigado') > -1 ? 'mt-4 text-sm text-green-100' : 'mt-4 text-sm text-red-100'}>

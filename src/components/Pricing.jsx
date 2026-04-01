@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { trackSectionView, trackButtonClick } from '../utils/analytics';
+import { openWhatsApp, WHATSAPP_MESSAGES } from '../utils/whatsapp';
 
 export default function Pricing() {
   useEffect(() => {
@@ -60,6 +61,12 @@ export default function Pricing() {
 
   const handlePlanClick = (planId) => {
     trackButtonClick('pricing_' + planId);
+    const messageMap = {
+      demo: WHATSAPP_MESSAGES.demo,
+      clinic: WHATSAPP_MESSAGES.pricing,
+      enterprise: WHATSAPP_MESSAGES.pricing,
+    };
+    openWhatsApp(messageMap[planId] || WHATSAPP_MESSAGES.contact);
   };
 
   return (

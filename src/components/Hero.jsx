@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { trackSectionView, trackButtonClick } from '../utils/analytics';
+import { openWhatsApp, WHATSAPP_MESSAGES } from '../utils/whatsapp';
 
 export default function Hero() {
   useEffect(() => {
@@ -8,6 +9,12 @@ export default function Hero() {
 
   const handleCTA = () => {
     trackButtonClick('hero_cta');
+    openWhatsApp(WHATSAPP_MESSAGES.demo);
+  };
+
+  const handleMessage = () => {
+    trackButtonClick('hero_message');
+    openWhatsApp(WHATSAPP_MESSAGES.contact);
   };
 
   return (
@@ -45,7 +52,7 @@ export default function Hero() {
           >
             📅 Agende uma Demo Gratuita
           </button>
-          <button className="px-8 py-3 border border-blue-400 text-blue-400 font-semibold rounded-lg hover:bg-blue-400/10 transition duration-300">
+          <button className="px-8 py-3 border border-blue-400 text-blue-400 font-semibold rounded-lg hover:bg-blue-400/10 transition duration-300" onClick={handleMessage}>
             💬 Envie uma Mensagem
           </button>
         </div>
