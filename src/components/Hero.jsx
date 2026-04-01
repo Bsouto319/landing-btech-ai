@@ -18,9 +18,37 @@ export default function Hero() {
   };
 
   return (
-    <section className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 flex items-center justify-center px-4 sm:px-6 lg:px-8">
-      <div className="max-w-4xl mx-auto text-center">
-        <div className="inline-block mb-4 px-4 py-1 bg-green-500/20 rounded-full border border-green-500/50">
+    <section className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 flex items-center justify-center px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+      {/* Animated background elements */}
+      <div className="absolute top-20 right-10 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl animate-pulse"></div>
+      <div className="absolute bottom-20 left-10 w-72 h-72 bg-green-500/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+
+      <div className="max-w-5xl mx-auto text-center relative z-10">
+        {/* Avatar Animation */}
+        <div className="mb-8 flex justify-center">
+          <div className="relative w-32 h-32">
+            {/* Outer rotating ring */}
+            <div className="absolute inset-0 bg-gradient-to-r from-green-500 via-blue-500 to-cyan-500 rounded-full animate-spin" style={{ animationDuration: '3s' }}></div>
+
+            {/* Inner white circle */}
+            <div className="absolute inset-1 bg-slate-900 rounded-full"></div>
+
+            {/* Avatar content */}
+            <div className="absolute inset-2 bg-gradient-to-br from-green-500 to-emerald-500 rounded-full flex items-center justify-center">
+              <span className="text-5xl">🤖</span>
+            </div>
+
+            {/* Floating chat bubbles */}
+            <div className="absolute -top-2 -right-2 w-10 h-10 bg-green-500 rounded-full flex items-center justify-center text-lg animate-bounce" style={{ animationDelay: '0s' }}>
+              💬
+            </div>
+            <div className="absolute -bottom-2 -left-2 w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center text-lg animate-bounce" style={{ animationDelay: '0.3s' }}>
+              ✓
+            </div>
+          </div>
+        </div>
+
+        <div className="inline-block mb-6 px-4 py-1 bg-green-500/20 rounded-full border border-green-500/50">
           <span className="text-green-400 text-sm font-semibold">✨ Revolucione seu consultório</span>
         </div>
 
