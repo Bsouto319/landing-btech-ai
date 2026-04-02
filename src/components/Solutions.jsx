@@ -10,19 +10,19 @@ export default function Solutions() {
     {
       id: 1,
       title: 'Paciente recebe o link no WhatsApp',
-      description: 'O paciente continua no canal que ja usa todos os dias. Sem baixar app e sem friccao.',
+      description: 'O paciente continua no canal que já usa todos os dias, sem precisar baixar aplicativo nem enfrentar atrito.',
       icon: '01',
     },
     {
       id: 2,
       title: 'A IA conduz a conversa',
-      description: 'Data, horario e confirmacao acontecem em uma conversa natural com resposta instantanea.',
+      description: 'Data, horário e confirmação acontecem em uma conversa natural, com resposta instantânea.',
       icon: '02',
     },
     {
       id: 3,
-      title: 'Confirmacao automatica',
-      description: 'A clinica recebe a confirmacao em tempo real e reduz o risco de agenda ociosa.',
+      title: 'Confirmação automática',
+      description: 'A clínica recebe a confirmação em tempo real e reduz o risco de horários ociosos na agenda.',
       icon: '03',
     },
     {
@@ -34,13 +34,13 @@ export default function Solutions() {
     {
       id: 5,
       title: 'Dashboard centralizado',
-      description: 'Agenda, leads e confirmacoes ficam visiveis em um unico painel de controle.',
+      description: 'Agenda, leads e confirmações ficam visíveis em um único painel de controle.',
       icon: '05',
     },
     {
       id: 6,
-      title: 'Integracao com calendario',
-      description: 'Sincroniza com Google Calendar e encaixa o fluxo da clinica sem retrabalho.',
+      title: 'Integração com calendário',
+      description: 'Sincroniza com o Google Calendar e encaixa o fluxo da clínica sem retrabalho.',
       icon: '06',
     },
   ];
@@ -53,7 +53,7 @@ export default function Solutions() {
             Como Funciona
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Um fluxo simples, visual e automatizado para transformar o WhatsApp em canal oficial de agendamento.
+            Um fluxo simples, visual e automatizado para transformar o WhatsApp no canal oficial de agendamento da sua clínica.
           </p>
         </div>
 
@@ -83,9 +83,9 @@ export default function Solutions() {
             </div>
             <div className="mt-4">
               <p className="text-cyan-300 text-sm font-semibold uppercase tracking-[0.2em]">WhatsApp + IA</p>
-              <p className="text-white text-lg font-semibold mt-2">O paciente agenda em segundos e a recepcao ganha folego operacional.</p>
+              <p className="text-white text-lg font-semibold mt-2">O paciente agenda em segundos, e a recepção ganha fôlego operacional.</p>
               <p className="text-gray-400 text-sm mt-2">
-                A imagem mostra o fluxo real da conversa, deixando claro como a IA oferece horarios e fecha a confirmacao no mesmo canal.
+                A imagem mostra o fluxo real da conversa, deixando claro como a IA oferece horários e fecha a confirmação no mesmo canal.
               </p>
             </div>
           </div>
@@ -97,17 +97,17 @@ export default function Solutions() {
             <div className="text-center">
               <div className="text-5xl mb-4">1</div>
               <p className="font-semibold mb-2">Paciente entra em contato</p>
-              <p className="text-gray-400 text-sm">A clinica envia o link ou inicia o fluxo no proprio WhatsApp.</p>
+              <p className="text-gray-400 text-sm">A clínica envia o link ou inicia o fluxo no próprio WhatsApp.</p>
             </div>
             <div className="text-center">
               <div className="text-5xl mb-4">2</div>
               <p className="font-semibold mb-2">A IA oferece horarios</p>
-              <p className="text-gray-400 text-sm">O paciente escolhe a melhor opcao e recebe a confirmacao automaticamente.</p>
+              <p className="text-gray-400 text-sm">O paciente escolhe a melhor opção e recebe a confirmação automaticamente.</p>
             </div>
             <div className="text-center">
               <div className="text-5xl mb-4">3</div>
               <p className="font-semibold mb-2">A agenda fica organizada</p>
-              <p className="text-gray-400 text-sm">Lembretes e sincronizacao garantem menos faltas e mais previsibilidade.</p>
+              <p className="text-gray-400 text-sm">Lembretes e sincronização garantem menos faltas e mais previsibilidade.</p>
             </div>
           </div>
         </div>

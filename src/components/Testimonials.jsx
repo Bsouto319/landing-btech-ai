@@ -10,27 +10,27 @@ export default function Testimonials() {
     {
       id: 1,
       name: 'Dra. Marina Silva',
-      clinic: 'Clinica Odontologica Marina',
+      clinic: 'Clínica Odontológica Marina',
       avatar: 'MS',
-      quote: 'A implantacao presencial fez toda a diferenca. A equipe entendeu rapido e a confirmacao de consultas melhorou muito.',
-      metric: '+45% confirmacao',
+      quote: 'A implantação presencial fez toda a diferença. A equipe entendeu rápido, e a confirmação de consultas melhorou muito.',
+      metric: '+45% de confirmação',
       rating: 5,
     },
     {
       id: 2,
       name: 'Dr. Carlos Mendes',
-      clinic: 'Consultorio Medico CM',
+      clinic: 'Consultório Médico CM',
       avatar: 'CM',
-      quote: 'O suporte local acelerou tudo. Em pouco tempo a recepcao parou de perder horas com mensagens repetidas.',
-      metric: '10h/mes poupadas',
+      quote: 'O suporte local acelerou tudo. Em pouco tempo, a recepção parou de perder horas com mensagens repetidas.',
+      metric: '10h/mês poupadas',
       rating: 5,
     },
     {
       id: 3,
       name: 'Juliana Costa',
-      clinic: 'Clinica de Estetica JC',
+      clinic: 'Clínica de Estética JC',
       avatar: 'JC',
-      quote: 'Gostei porque nao foi so software. Teve visita, configuracao no local e treinamento real com minha equipe.',
+      quote: 'Gostei porque não foi só software. Teve visita, configuração no local e treinamento real com a minha equipe.',
       metric: 'suporte presencial',
       rating: 5,
     },
@@ -41,10 +41,10 @@ export default function Testimonials() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
-            Clinicas da Regiao que Ja Melhoraram a Recepcao
+            Clínicas da Região que Já Melhoraram a Recepção
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Uma proposta mais proxima: implantacao presencial, suporte local e operacao ajustada a realidade da clinica.
+            Uma proposta mais próxima: implantação presencial, suporte local e operação ajustada à realidade da clínica.
           </p>
         </div>
 

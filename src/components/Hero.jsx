@@ -24,9 +24,9 @@ export default function Hero() {
           src="/images/hero/regional-btech-ai.jpeg"
           alt=""
           aria-hidden="true"
-          className="absolute left-[53%] top-[43%] h-[96%] w-[96%] -translate-x-1/2 -translate-y-1/2 object-contain opacity-90 contrast-125 saturate-125"
+          className="absolute inset-0 h-full w-full object-cover object-[62%_30%] opacity-90 contrast-125 saturate-125"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-950/82 via-slate-900/30 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/82 to-slate-900/20" />
       </div>
       <div className="absolute top-20 right-10 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl animate-pulse" />
       <div className="absolute bottom-20 left-10 w-72 h-72 bg-green-500/10 rounded-full blur-3xl animate-pulse delay-1000" />
@@ -34,7 +34,7 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="text-center lg:text-left max-w-3xl">
           <div className="inline-block mb-6 px-4 py-1 bg-green-500/20 rounded-full border border-green-500/50">
-            <span className="text-green-400 text-sm font-semibold">Automacao para clinicas no WhatsApp</span>
+            <span className="text-green-400 text-sm font-semibold">Automação para clínicas no WhatsApp</span>
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight">
@@ -42,7 +42,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-lg sm:text-xl text-gray-300 mb-8 max-w-3xl lg:max-w-xl mx-auto lg:mx-0">
-            Automatize o agendamento via WhatsApp com IA, com implantacao presencial e suporte local para clinicas da sua regiao. Menos caos na recepcao, mais agenda confirmada.
+            Automatize o agendamento via WhatsApp com IA, com implantação presencial e suporte local para clínicas da sua região. Menos sobrecarga na recepção, mais consultas confirmadas.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -63,15 +63,15 @@ export default function Hero() {
           <div className="mt-16 grid grid-cols-3 gap-4 sm:gap-8 text-center lg:text-left">
             <div className="bg-slate-800/40 p-4 rounded-lg border border-slate-700">
               <p className="text-3xl sm:text-4xl font-bold text-green-400">+40%</p>
-              <p className="text-gray-400 text-sm mt-2">Confirmacao de consultas</p>
+              <p className="text-gray-400 text-sm mt-2">Confirmação de consultas</p>
             </div>
             <div className="bg-slate-800/40 p-4 rounded-lg border border-slate-700">
               <p className="text-3xl sm:text-4xl font-bold text-blue-400">10h/mes</p>
-              <p className="text-gray-400 text-sm mt-2">Economizadas em admin</p>
+              <p className="text-gray-400 text-sm mt-2">economizadas em tarefas administrativas</p>
             </div>
             <div className="bg-slate-800/40 p-4 rounded-lg border border-slate-700">
               <p className="text-3xl sm:text-4xl font-bold text-cyan-400">30min</p>
-              <p className="text-gray-400 text-sm mt-2">Setup e treinamento</p>
+              <p className="text-gray-400 text-sm mt-2">implantação e treinamento</p>
             </div>
           </div>
         </div>

@@ -16,10 +16,10 @@ export default function CTA() {
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-primary to-secondary">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
-          Quer implantar isso na sua clinica?
+          Quer implantar isso na sua clínica?
         </h2>
         <p className="text-lg text-white/90 mb-10 max-w-2xl mx-auto">
-          Hoje a operacao esta focada em atendimento regional, com implantacao presencial, treinamento no local e suporte proximo para sua equipe.
+          Hoje a operação está focada em atendimento regional, com implantação presencial, treinamento no local e suporte próximo para a sua equipe.
         </p>
 
         <div className="flex justify-center">
@@ -32,7 +32,7 @@ export default function CTA() {
         </div>
 
         <p className="text-sm text-white/75 mt-6">
-          Atendimento consultivo para clinicas e consultorios da regiao.
+          Atendimento consultivo para clínicas e consultórios da região.
         </p>
       </div>
     </section>

@@ -8,14 +8,14 @@ export default function Footer() {
           <div>
             <h3 className="font-bold text-lg mb-4">Btech AI Attendant</h3>
             <p className="text-gray-400 text-sm">
-              Automacao de agendamento para clinicas da regiao, com implantacao presencial e suporte proximo.
+              Automação de agendamento para clínicas da região, com implantação presencial e suporte próximo.
             </p>
           </div>
           <div>
-            <h4 className="font-semibold mb-4">Servico</h4>
+            <h4 className="font-semibold mb-4">Serviço</h4>
             <ul className="space-y-2 text-sm text-gray-400">
               <li><a href="#" className="hover:text-white transition">Agendamento por WhatsApp</a></li>
-              <li><a href="#" className="hover:text-white transition">Implantacao presencial</a></li>
+              <li><a href="#" className="hover:text-white transition">Implantação presencial</a></li>
               <li><a href="#" className="hover:text-white transition">Treinamento local</a></li>
               <li><a href="#" className="hover:text-white transition">Suporte regional</a></li>
             </ul>
@@ -23,7 +23,7 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Oferta</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><a href="#" className="hover:text-white transition">Implantacao R$ 500</a></li>
+              <li><a href="#" className="hover:text-white transition">Implantação R$ 500</a></li>
               <li><a href="#" className="hover:text-white transition">Mensalidade R$ 300</a></li>
               <li><a href="#" className="hover:text-white transition">Demo gratuita</a></li>
               <li><a href="#" className="hover:text-white transition">Atendimento consultivo</a></li>
@@ -35,7 +35,7 @@ export default function Footer() {
               <li><a href="#" className="hover:text-white transition">WhatsApp</a></li>
               <li><a href="#" className="hover:text-white transition">Visita comercial</a></li>
               <li><a href="#" className="hover:text-white transition">Suporte presencial</a></li>
-              <li><a href="#" className="hover:text-white transition">Atendimento na regiao</a></li>
+              <li><a href="#" className="hover:text-white transition">Atendimento na região</a></li>
             </ul>
           </div>
         </div>

@@ -11,31 +11,31 @@ export default function Pricing() {
     {
       id: 'demo',
       name: 'Demo Gratuita',
-      price: 'Gratis',
+      price: 'Grátis',
       period: '(15 minutos)',
-      description: 'Veja o Btech AI Attendant em acao',
+      description: 'Veja o Btech AI Attendant em ação',
       features: [
-        'Demonstracao ao vivo',
+        'Demonstração ao vivo',
         'Perguntas e respostas com especialista',
-        'Analise do seu caso',
+        'Análise do seu caso',
         'Sem compromisso',
       ],
       highlighted: false,
     },
     {
       id: 'clinic',
-      name: 'Clinica ou Consultorio',
+      name: 'Clínica ou Consultório',
       price: 'R$ 500',
-      period: '(implantacao) + R$ 300/mes',
-      description: 'Ideal para operacoes locais que querem implantacao presencial e suporte proximo',
+      period: '(implantação) + R$ 300/mês',
+      description: 'Ideal para operações locais que querem implantação presencial e suporte próximo',
       features: [
-        'Agendamento automatico 24/7',
+        'Agendamento automático 24/7',
         'Lembretes no WhatsApp',
-        'Sincronizacao com Google Calendar',
+        'Sincronização com Google Calendar',
         'Dashboard da agenda',
-        'Relatorio de leads',
-        'Implantacao presencial na sua clinica',
-        'Suporte presencial na regiao',
+        'Relatório de leads',
+        'Implantação presencial na sua clínica',
+        'Suporte presencial na região',
         'Treinamento presencial completo',
         'Setup com acompanhamento local',
       ],
@@ -43,17 +43,17 @@ export default function Pricing() {
     },
     {
       id: 'enterprise',
-      name: 'Multiplas Filiais',
+      name: 'Múltiplas Filiais',
       price: 'Custom',
       period: '(consulte valor)',
-      description: 'Para grupos com mais de uma unidade e operacao centralizada',
+      description: 'Para grupos com mais de uma unidade e operação centralizada',
       features: [
-        'Tudo do plano Clinica',
-        'Multiplos atendentes',
-        'Gestao centralizada',
-        'Relatorios avancados',
-        'Integracao com CRM',
-        'Suporte prioritario',
+        'Tudo do plano Clínica',
+        'Múltiplos atendentes',
+        'Gestão centralizada',
+        'Relatórios avançados',
+        'Integração com CRM',
+        'Suporte prioritário',
         'Gerente dedicado',
       ],
       highlighted: false,
@@ -82,10 +82,10 @@ export default function Pricing() {
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
-            Precos Simples e Transparentes
+            Preços Simples e Transparentes
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Sem taxas escondidas. Implantacao presencial, suporte local e treinamento presencial para clinicas da regiao.
+            Sem taxas escondidas. Implantação presencial, suporte local e treinamento presencial para clínicas da região.
           </p>
         </div>
 
@@ -121,7 +121,7 @@ export default function Pricing() {
                       : 'w-full py-3 px-4 font-semibold rounded-lg mb-8 transition duration-300 border border-blue-500 text-blue-400 hover:bg-blue-500/10'
                   }
                 >
-                  {plan.id === 'demo' ? 'Agendar Demo' : 'Comecar Agora'}
+                  {plan.id === 'demo' ? 'Agendar Demo' : 'Começar Agora'}
                 </button>
                 <ul className="space-y-3">
                   {plan.features.map((feature) => (
@@ -137,9 +137,9 @@ export default function Pricing() {
         </div>
 
         <div className="mt-16 p-8 bg-slate-800/90 border border-slate-700 rounded-lg">
-          <h3 className="text-white text-xl font-semibold mb-4">Oferta Especial de Lancamento</h3>
+          <h3 className="text-white text-xl font-semibold mb-4">Oferta Especial de Lançamento</h3>
           <p className="text-gray-300">
-            Primeiros clientes podem receber condicoes comerciais diferenciadas e uma consultoria inicial para otimizar o funil da recepcao.
+            Os primeiros clientes podem receber condições comerciais diferenciadas e uma consultoria inicial para otimizar o funil da recepção.
           </p>
         </div>
       </div>

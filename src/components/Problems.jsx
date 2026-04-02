@@ -10,27 +10,27 @@ export default function Problems() {
     {
       id: 1,
       title: 'Agendamentos Manuais',
-      description: 'Sua recepcao perde horas por semana organizando mensagens, papeis e horarios manualmente.',
+      description: 'Sua recepção perde horas por semana organizando mensagens, papéis e horários manualmente.',
       image: '/images/features/manual-appointments.png',
-      alt: 'Ilustracao de agendamentos manuais caoticos',
+      alt: 'Ilustração de agendamentos manuais caóticos',
     },
     {
       id: 2,
-      title: 'Alto Indice de Faltas',
-      description: 'Muitos pacientes nao confirmam a presenca e a clinica descobre a ausencia so na hora da consulta.',
+      title: 'Alto Índice de Faltas',
+      description: 'Muitos pacientes não confirmam a presença, e a clínica só descobre a ausência na hora da consulta.',
       image: '/images/features/missed-appointments.png',
-      alt: 'Ilustracao de faltas e consultas perdidas',
+      alt: 'Ilustração de faltas e consultas perdidas',
     },
     {
       id: 3,
       title: 'Equipe Sobrecarregada',
-      description: 'A recepcionista precisa responder o tempo todo. Nao sobra foco para atendimento presencial e tarefas criticas.',
+      description: 'A recepcionista precisa responder o tempo todo. Falta foco para o atendimento presencial e para tarefas críticas.',
       icon: '!!',
     },
     {
       id: 4,
       title: 'Dados Desorganizados',
-      description: 'Agenda espalhada em varios lugares. Fica dificil enxergar leads, confirmacoes e o desempenho da operacao.',
+      description: 'Agenda espalhada em vários lugares. Fica difícil enxergar leads, confirmações e o desempenho da operação.',
       icon: '::',
     },
   ];
@@ -40,10 +40,10 @@ export default function Problems() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
-            Os Problemas que Toda Clinica Enfrenta
+            Os Problemas que Toda Clínica Enfrenta
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Voce nao esta sozinho. Milhares de clinicas lidam com esses gargalos todos os dias. A diferenca esta em automatizar o que trava sua recepcao.
+            Você não está sozinho. Milhares de clínicas lidam com esses gargalos todos os dias. A diferença está em automatizar o que trava sua recepção.
           </p>
         </div>
 
@@ -72,7 +72,7 @@ export default function Problems() {
 
         <div className="mt-16 p-8 bg-gradient-to-r from-red-500/10 to-orange-500/10 border border-red-500/20 rounded-lg">
           <p className="text-center text-white text-lg">
-            <span className="font-bold text-red-400">Resultado:</span> pacientes perdidos, receita represada e uma equipe sempre correndo atras do basico.
+            <span className="font-bold text-red-400">Resultado:</span> pacientes perdidos, receita travada e uma equipe sempre correndo atrás do básico.
           </p>
         </div>
       </div>
