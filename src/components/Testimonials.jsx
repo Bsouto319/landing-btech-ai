@@ -10,28 +10,28 @@ export default function Testimonials() {
     {
       id: 1,
       name: 'Dra. Marina Silva',
-      clinic: 'Clínica Odontológica Marina',
+      clinic: 'Clinica Odontologica Marina',
       avatar: 'MS',
-      quote: 'Reduziu nossos no-shows em 45%. O sistema é muito fácil de usar!',
-      metric: '+45% confirmação',
+      quote: 'A implantacao presencial fez toda a diferenca. A equipe entendeu rapido e a confirmacao de consultas melhorou muito.',
+      metric: '+45% confirmacao',
       rating: 5,
     },
     {
       id: 2,
       name: 'Dr. Carlos Mendes',
-      clinic: 'Consultório Médico CM',
+      clinic: 'Consultorio Medico CM',
       avatar: 'CM',
-      quote: 'Economizamos 15 horas por semana com agendamentos automáticos.',
-      metric: '15h/semana',
+      quote: 'O suporte local acelerou tudo. Em pouco tempo a recepcao parou de perder horas com mensagens repetidas.',
+      metric: '10h/mes poupadas',
       rating: 5,
     },
     {
       id: 3,
       name: 'Juliana Costa',
-      clinic: 'Clínica de Estética JC',
+      clinic: 'Clinica de Estetica JC',
       avatar: 'JC',
-      quote: 'Pacientes adoram a facilidade de agendar pelo WhatsApp!',
-      metric: '+60% conversão',
+      quote: 'Gostei porque nao foi so software. Teve visita, configuracao no local e treinamento real com minha equipe.',
+      metric: 'suporte presencial',
       rating: 5,
     },
   ];
@@ -41,10 +41,10 @@ export default function Testimonials() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
-            Clínicas que Já Transformaram seu Atendimento
+            Clinicas da Regiao que Ja Melhoraram a Recepcao
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Veja o que nossos clientes dizem sobre o Btech AI Attendant
+            Uma proposta mais proxima: implantacao presencial, suporte local e operacao ajustada a realidade da clinica.
           </p>
         </div>
 
@@ -54,26 +54,22 @@ export default function Testimonials() {
               key={testimonial.id}
               className="bg-slate-900 rounded-xl p-8 border border-slate-700 hover:border-green-500/50 transition duration-300"
             >
-              {/* Stars */}
               <div className="flex gap-1 mb-4">
                 {[...Array(testimonial.rating)].map((_, i) => (
-                  <span key={i} className="text-yellow-400 text-lg">★</span>
+                  <span key={i} className="text-yellow-400 text-lg">*</span>
                 ))}
               </div>
 
-              {/* Quote */}
               <p className="text-gray-300 text-base mb-6 italic">
                 "{testimonial.quote}"
               </p>
 
-              {/* Metric Badge */}
               <div className="mb-6 inline-block px-3 py-1 bg-green-500/20 rounded-full border border-green-500/50">
                 <p className="text-green-400 text-sm font-semibold">
                   {testimonial.metric}
                 </p>
               </div>
 
-              {/* Author */}
               <div className="flex items-center gap-4 border-t border-slate-700 pt-4">
                 <div className="w-12 h-12 rounded-full bg-gradient-to-br from-green-500 to-emerald-500 flex items-center justify-center text-white text-sm font-bold">
                   {testimonial.avatar}
