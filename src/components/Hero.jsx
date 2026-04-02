@@ -24,9 +24,9 @@ export default function Hero() {
           src="/images/hero/btech-ai.jfif"
           alt=""
           aria-hidden="true"
-          className="absolute inset-y-0 right-0 h-full w-full object-cover opacity-20 mix-blend-screen"
+          className="absolute inset-y-0 right-0 h-full w-full object-cover object-right opacity-70 contrast-110 saturate-110"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-900/82 to-blue-900/58" />
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-950/88 via-slate-900/48 to-blue-900/18" />
       </div>
       <div className="absolute top-20 right-10 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl animate-pulse" />
       <div className="absolute bottom-20 left-10 w-72 h-72 bg-green-500/10 rounded-full blur-3xl animate-pulse delay-1000" />
