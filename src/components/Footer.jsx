@@ -1,3 +1,5 @@
+const CONTACT_EMAIL = import.meta.env.VITE_CONTACT_EMAIL || 'brunosouto1108@gmail.com';
+
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -32,10 +34,10 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Contato</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><a href="#" className="hover:text-white transition">WhatsApp</a></li>
+              <li><a href="https://wa.me/5561982025951" target="_blank" rel="noreferrer" className="hover:text-white transition">WhatsApp</a></li>
+              <li><a href={`mailto:${CONTACT_EMAIL}`} className="hover:text-white transition">{CONTACT_EMAIL}</a></li>
               <li><a href="#" className="hover:text-white transition">Visita comercial</a></li>
               <li><a href="#" className="hover:text-white transition">Suporte presencial</a></li>
-              <li><a href="#" className="hover:text-white transition">Atendimento na região</a></li>
             </ul>
           </div>
         </div>
@@ -49,6 +51,7 @@ export default function Footer() {
               <a href="https://github.com" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition">GitHub</a>
               <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition">LinkedIn</a>
               <a href="https://wa.me" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition">WhatsApp</a>
+              <a href={`mailto:${CONTACT_EMAIL}`} className="text-gray-400 hover:text-white transition">E-mail</a>
             </div>
           </div>
         </div>

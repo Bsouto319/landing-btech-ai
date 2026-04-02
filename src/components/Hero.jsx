@@ -2,6 +2,8 @@ import { useEffect } from 'react';
 import { trackSectionView, trackButtonClick } from '../utils/analytics';
 import { openWhatsApp, WHATSAPP_MESSAGES } from '../utils/whatsapp';
 
+const CONTACT_EMAIL = import.meta.env.VITE_CONTACT_EMAIL || 'brunosouto1108@gmail.com';
+
 export default function Hero() {
   useEffect(() => {
     trackSectionView('hero');
@@ -17,6 +19,11 @@ export default function Hero() {
     openWhatsApp(WHATSAPP_MESSAGES.contact);
   };
 
+  const handleEmail = () => {
+    trackButtonClick('hero_email');
+    window.location.href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent('Quero implantar na minha clínica')}`;
+  };
+
   return (
     <section className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 flex items-center justify-center px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       <div className="absolute inset-0 pointer-events-none">
@@ -24,7 +31,7 @@ export default function Hero() {
           src="/images/hero/regional-btech-ai.jpeg"
           alt=""
           aria-hidden="true"
-          className="absolute inset-0 h-full w-full object-cover object-[62%_30%] opacity-90 contrast-125 saturate-125"
+          className="absolute inset-0 h-full w-full object-cover object-[74%_30%] opacity-90 contrast-125 saturate-125"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/82 to-slate-900/20" />
       </div>
@@ -53,10 +60,16 @@ export default function Hero() {
               Agende uma Demo Gratuita
             </button>
             <button
-              className="px-8 py-3 border border-blue-400 text-blue-400 font-semibold rounded-lg hover:bg-blue-400/10 transition duration-300"
+              className="px-8 py-3 border border-green-400 text-green-300 font-semibold rounded-lg hover:bg-green-400/10 transition duration-300"
               onClick={handleMessage}
             >
-              Envie uma Mensagem
+              Fale no WhatsApp
+            </button>
+            <button
+              className="px-8 py-3 border border-blue-400 text-blue-300 font-semibold rounded-lg hover:bg-blue-400/10 transition duration-300"
+              onClick={handleEmail}
+            >
+              Envie um E-mail
             </button>
           </div>
 
