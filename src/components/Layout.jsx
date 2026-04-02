@@ -3,6 +3,7 @@ import { initializeAnalytics } from '../utils/analytics';
 import Hero from './Hero';
 import Problems from './Problems';
 import Solutions from './Solutions';
+import DemoVideo from './DemoVideo';
 import Features from './Features';
 import Pricing from './Pricing';
 import CTA from './CTA';
@@ -20,6 +21,7 @@ export default function Layout() {
       <Hero />
       <Problems />
       <Solutions />
+      <DemoVideo />
       <Features />
       <Pricing />
       <CTA />
