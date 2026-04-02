@@ -25,18 +25,19 @@ export default function Pricing() {
     {
       id: 'clinic',
       name: 'Clinica ou Consultorio',
-      price: 'R$ 1.000',
+      price: 'R$ 500',
       period: '(implantacao) + R$ 300/mes',
-      description: 'Ideal para operacoes de pequeno porte que querem padronizar a recepcao',
+      description: 'Ideal para operacoes locais que querem implantacao presencial e suporte proximo',
       features: [
         'Agendamento automatico 24/7',
         'Lembretes no WhatsApp',
         'Sincronizacao com Google Calendar',
         'Dashboard da agenda',
         'Relatorio de leads',
-        'Suporte tecnico',
-        'Treinamento completo',
-        'Setup em 30 minutos',
+        'Implantacao presencial na sua clinica',
+        'Suporte presencial na regiao',
+        'Treinamento presencial completo',
+        'Setup com acompanhamento local',
       ],
       highlighted: true,
     },
@@ -84,7 +85,7 @@ export default function Pricing() {
             Precos Simples e Transparentes
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Sem taxas escondidas. Implantacao, suporte e treinamento inclusos para a clinica comecar rapido.
+            Sem taxas escondidas. Implantacao presencial, suporte local e treinamento presencial para clinicas da regiao.
           </p>
         </div>
 

@@ -21,7 +21,7 @@ export default function Hero() {
     <section className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 flex items-center justify-center px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       <div className="absolute inset-0 pointer-events-none">
         <img
-          src="/images/hero/btech-ai.jfif"
+          src="/images/hero/regional-btech-ai.jpeg"
           alt=""
           aria-hidden="true"
           className="absolute inset-y-0 right-0 h-full w-full object-cover object-center opacity-90 contrast-125 saturate-125"
@@ -42,7 +42,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-lg sm:text-xl text-gray-300 mb-8 max-w-3xl lg:max-w-xl mx-auto lg:mx-0">
-            Automatize o agendamento via WhatsApp com IA. Confirmacoes automaticas, lembretes inteligentes e remarcacao em um clique para uma recepcao mais leve e previsivel.
+            Automatize o agendamento via WhatsApp com IA, com implantacao presencial e suporte local para clinicas da sua regiao. Menos caos na recepcao, mais agenda confirmada.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
