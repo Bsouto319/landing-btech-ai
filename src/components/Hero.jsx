@@ -19,11 +19,20 @@ export default function Hero() {
 
   return (
     <section className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 flex items-center justify-center px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+      <div className="absolute inset-0 pointer-events-none">
+        <img
+          src="/images/hero/btech-ai.jfif"
+          alt=""
+          aria-hidden="true"
+          className="absolute inset-y-0 right-0 h-full w-full object-cover opacity-20 mix-blend-screen"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-900/82 to-blue-900/58" />
+      </div>
       <div className="absolute top-20 right-10 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl animate-pulse" />
       <div className="absolute bottom-20 left-10 w-72 h-72 bg-green-500/10 rounded-full blur-3xl animate-pulse delay-1000" />
 
-      <div className="max-w-6xl mx-auto relative z-10 grid lg:grid-cols-[1.05fr_0.95fr] gap-12 items-center">
-        <div className="text-center lg:text-left order-2 lg:order-1">
+      <div className="max-w-6xl mx-auto relative z-10">
+        <div className="text-center lg:text-left max-w-3xl">
           <div className="inline-block mb-6 px-4 py-1 bg-green-500/20 rounded-full border border-green-500/50">
             <span className="text-green-400 text-sm font-semibold">Automacao para clinicas no WhatsApp</span>
           </div>
@@ -63,23 +72,6 @@ export default function Hero() {
             <div className="bg-slate-800/40 p-4 rounded-lg border border-slate-700">
               <p className="text-3xl sm:text-4xl font-bold text-cyan-400">30min</p>
               <p className="text-gray-400 text-sm mt-2">Setup e treinamento</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="order-1 lg:order-2">
-          <div className="relative max-w-xl mx-auto">
-            <div className="absolute -inset-4 bg-gradient-to-br from-cyan-500/20 to-green-500/20 blur-3xl rounded-[2rem]" />
-            <div className="relative rounded-[2rem] overflow-hidden border border-white/10 bg-slate-900 shadow-2xl">
-              <img
-                src="/images/hero/btech-ai.jfif"
-                alt="Atendimento com agenda e inteligencia artificial na recepcao da BTech"
-                className="w-full h-auto object-cover"
-              />
-            </div>
-            <div className="absolute -bottom-6 left-6 right-6 rounded-2xl border border-cyan-400/20 bg-slate-900/95 backdrop-blur px-5 py-4 shadow-xl">
-              <p className="text-cyan-300 text-xs uppercase tracking-[0.2em]">Fluxo automatizado</p>
-              <p className="text-white font-semibold mt-2">Agendamento confirmado sem trocar dezenas de mensagens.</p>
             </div>
           </div>
         </div>
