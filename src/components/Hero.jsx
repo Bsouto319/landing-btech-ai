@@ -24,7 +24,7 @@ export default function Hero() {
           src="/images/hero/regional-btech-ai.jpeg"
           alt=""
           aria-hidden="true"
-          className="absolute inset-y-0 right-0 h-full w-full object-cover object-center opacity-90 contrast-125 saturate-125"
+          className="absolute left-1/2 top-1/2 h-[88%] w-[88%] -translate-x-1/2 -translate-y-1/2 object-contain opacity-90 contrast-125 saturate-125"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-950/82 via-slate-900/30 to-transparent" />
       </div>
