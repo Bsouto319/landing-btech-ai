@@ -6,11 +6,6 @@
     "VITE_GA_ID": "G-2S92TQ11FZ",
     "VITE_API_URL": "https://api.example.com"
   },
-  "functions": {
-    "api/**/*.js": {
-      "maxDuration": 60
-    }
-  },
   "headers": [
     {
       "source": "/",
