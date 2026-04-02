@@ -68,13 +68,13 @@ export default function Hero() {
         </div>
 
         <div className="order-1 lg:order-2">
-          <div className="relative max-w-md mx-auto">
+          <div className="relative max-w-xl mx-auto">
             <div className="absolute -inset-4 bg-gradient-to-br from-cyan-500/20 to-green-500/20 blur-3xl rounded-[2rem]" />
             <div className="relative rounded-[2rem] overflow-hidden border border-white/10 bg-slate-900 shadow-2xl">
               <img
-                src="/images/hero/ai-agenda-illustration.svg"
-                alt="Ilustracao de agenda com inteligencia artificial para clinicas"
-                className="w-full h-[540px] object-cover"
+                src="/images/hero/btech-ai.jfif"
+                alt="Atendimento com agenda e inteligencia artificial na recepcao da BTech"
+                className="w-full h-auto object-cover"
               />
             </div>
             <div className="absolute -bottom-6 left-6 right-6 rounded-2xl border border-cyan-400/20 bg-slate-900/95 backdrop-blur px-5 py-4 shadow-xl">
