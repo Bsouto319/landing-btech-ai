@@ -125,8 +125,18 @@ REACT_APP_API_URL=https://your-api.com
 
 ## Analytics
 
-Google Analytics support included. Set your GA ID in .env:
-REACT_APP_GA_ID=G-XXXXXXXXXX
+The landing page supports:
+- Google Analytics
+- Meta Pixel for Facebook/Instagram Ads
+- TikTok Pixel
+
+Set these variables in `.env` or in Vercel Project Settings:
+
+```env
+VITE_GA_ID=G-XXXXXXXXXX
+VITE_META_PIXEL_ID=123456789012345
+VITE_TIKTOK_PIXEL_ID=CXXXXXXXXXXXXXXXXX
+```
 
 ## License
 
