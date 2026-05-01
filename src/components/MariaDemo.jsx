@@ -346,7 +346,7 @@ export default function MariaDemo() {
             <button
               onClick={() => {
                 if (typeof window !== 'undefined') {
-                  window.open('https://wa.me/5500000000000?text=Quero%20ver%20uma%20demo%20da%20Maria', '_blank');
+                  window.open('https://wa.me/5561982025951?text=Quero%20ver%20uma%20demo%20da%20Maria');
                 }
               }}
               className="w-full px-6 py-3 bg-gradient-to-r from-green-500 to-emerald-500 text-white font-semibold rounded-xl hover:shadow-lg hover:shadow-green-500/40 transition-all duration-300 hover:scale-105 text-sm"
